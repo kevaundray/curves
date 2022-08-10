@@ -15,7 +15,7 @@ edition = "2018"
 [dependencies]
 ark-ff = { git = "https://github.com/kevaundray/algebra", default-features = false }
 ark-ec = { git = "https://github.com/kevaundray/algebra", default-features = false }
-ark-std = { git = "https://github.com/kevaundray/algebra", default-features = false }
+ark-std = { git = "https://github.com/kevaundray/std", default-features = false }
 
 [dev-dependencies]
 ark-serialize = { git = "https://github.com/kevaundray/algebra", default-features = false }
